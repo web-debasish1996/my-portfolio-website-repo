@@ -1,10 +1,21 @@
+
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+*{
+    padding: 0px;
+    margin: 0px;
+}
 :root{
     --primary-color:#FD6E0A;
     --title-color:#181818;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--title-color);
 }
 nav{
     display: flex;
@@ -16,7 +27,7 @@ nav{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-    margin-left: -54px;
+    margin-left: -88px;
 }
 .logo span{
     color:var(--primary-color);
@@ -49,7 +60,13 @@ nav a{
 }
 /* Header Related Style */
 .header{
+    height: 100vh;
     background-color: #FFF8F3;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-bottom: 130px;
+
 }
 .btn-cv{
     width: 180px;
@@ -65,8 +82,13 @@ nav a{
     font-weight: 700;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 50px 30px 0px 120px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner-title{
     color: var(--title-color);
@@ -75,13 +97,48 @@ nav a{
 }
 .banner-description{
     display: flex;
-    width: 585px;
+    width: 500px;
     flex-direction: column;
 }
-.img-container{
-    width: 484px;
-    height: 576px;
+.banner .profile-picture{
+    width: 400px;
 }
-.img-container img{
-    width: 100%;
+
+
+/* About-Section */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+main{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.about-info{
+    text-align: center;
+}
+.about-info .info-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.about-info .info-title{
+    color: #181818;
+    font-size: 20px;
 }
