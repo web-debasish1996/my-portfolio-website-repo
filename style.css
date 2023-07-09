@@ -141,7 +141,6 @@ nav a {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    border: 1px solid green;
     margin: 130px 0;
 }
 
@@ -218,6 +217,46 @@ main {
 
 .resume-column-title {
     color: #474747;
-    font-size: 30px
+    font-size: 30px font-weight: 700;
+    margin-top: 113px;
+    margin-bottom: 30px;
+}
+
+.resume-container {
+    display: flex;
+}
+
+.resume-item-title {
+    margin-bottom: 10px;
+    color: #474747;
+    font-size: 25px;
     font-weight: 700;
+}
+
+.resume-item-info {
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.resume-column-1{
+    margin-right: ;
+}
+.resume-column-info{
+    margin-right: 70px;
+}
+.download-cv{
+    margin-top: 50px;
+    text-align: center;
 }
