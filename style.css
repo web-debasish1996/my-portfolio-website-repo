@@ -1,53 +1,66 @@
-
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-*{
+
+* {
     padding: 0px;
     margin: 0px;
 }
-:root{
-    --primary-color:#FD6E0A;
-    --title-color:#181818;
+
+:root {
+    --primary-color: #FD6E0A;
+    --title-color: #181818;
 }
-.section-title{
+
+main section {
+    margin-top: 130px;
+}
+
+.section-title {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
     color: var(--title-color);
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-.logo{
+
+.logo {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
     margin-left: -88px;
 }
-.logo span{
-    color:var(--primary-color);
+
+.logo span {
+    color: var(--primary-color);
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
     margin-right: -110px;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 51px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: var(--title-color);
     font-size: 20px;
     font-weight: 400;
 }
-.btn-primary{
+
+.btn-primary {
     width: 150px;
     height: 50px;
     background-color: var(--primary-color);
@@ -58,21 +71,22 @@ nav a{
     font-size: 20px;
     font-weight: 700;
 }
+
 /* Header Related Style */
-.header{
-    height: 100vh;
+.header {
     background-color: #FFF8F3;
     background-image: url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-    margin-bottom: 130px;
+}
 
-}
-.btn-cv{
+.btn-cv {
     width: 180px;
-    height: 50px;;
+    height: 50px;
+    ;
 }
-.btn-contact{
+
+.btn-contact {
     width: 130px;
     height: 50px;
     color: var(--primary-color);
@@ -80,39 +94,58 @@ nav a{
     border: 1px solid #FD6E0A;
     font-size: 20px;
     font-weight: 700;
+    margin-left: 30px;
 }
-.banner{
-    padding: 50px 30px 0px 120px;
+
+.banner {
+    padding: 30px 30px 0px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.banner-title{
-    color: var(--title-color);
-    font-size: 65px;
-    font-weight: 700;
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
 }
-.banner-description{
+
+.banner-title {
+    color: var(--title-color);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
     display: flex;
     width: 500px;
     flex-direction: column;
+    margin-bottom: 30px;
 }
-.banner .profile-picture{
-    width: 400px;
+
+.banner .profile-picture {
+    width: 500px;
+
 }
 
 
 /* About-Section */
 
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
+    border: 1px solid green;
+    margin: 130px 0;
 }
-.section-description{
+
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -120,25 +153,71 @@ nav a{
     line-height: 30px;
     margin-top: 30px;
 }
-main{
+
+main {
     max-width: 1120px;
     margin: 0 auto;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-.about-info .info-description{
+
+.about-info .info-description {
     color: #757575;
     font-size: 18px;
     font-weight: 400;
 
 }
-.about-info .info-title{
+
+.about-info .info-title {
     color: #181818;
     font-size: 20px;
+}
+
+/* What I Do Section */
+
+.what-i-do {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+}
+
+.skill-title {
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* -- Resume Section -- */
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px
+    font-weight: 700;
 }
