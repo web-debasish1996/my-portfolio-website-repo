@@ -1,0 +1,51 @@
+@media screen and (max-width: 576px) {
+    .header{
+        background-image: none;
+    }
+    nav, nav > ul,
+    .skills-container, .resume-container,
+    .footer-section, .about-info-container, .banner{
+        flex-direction: column;
+    }
+    nav > ul{
+        gap: 20px;
+        margin: 25px;
+    }
+    .banner .profile-picture{
+        width: 100%;
+    }
+    .banner-content, .banner-description{
+        max-width: 100%;
+    }
+    .banner-greeting{
+        font-size: 35px;
+    }
+    .banner-title{
+        font-size: 65px;
+    }
+    .what-i-do, .banner{
+        padding: 30px;
+    }
+    .resume-container{
+        padding: 0 30px;
+    }
+    .footer-section, .about{
+        padding: 30px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"], input[type="email"],
+textarea{
+    width: 80%;
+}
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px){
+
+
+
+
+
+}

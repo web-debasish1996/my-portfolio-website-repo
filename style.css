@@ -42,7 +42,7 @@ nav {
     color: var(--primary-color);
 }
 
-nav>ul {
+nav > ul {
     display: flex;
     align-items: center;
     margin-right: -110px;
@@ -70,20 +70,15 @@ nav a {
     outline: none;
     font-size: 20px;
     font-weight: 700;
+    margin-right: 20px;
 }
 
 /* Header Related Style */
 .header {
     background-color: #FFF8F3;
-    background-image: url('images/header_bg.png');
+    background-image: url('images/header_bg.png'), url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-}
-
-.btn-cv {
-    width: 180px;
-    height: 50px;
-    ;
+    background-position: bottom right, top left;
 }
 
 .btn-contact {
@@ -94,7 +89,7 @@ nav a {
     border: 1px solid #FD6E0A;
     font-size: 20px;
     font-weight: 700;
-    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .banner {
@@ -166,6 +161,7 @@ main {
 
 .about-info {
     text-align: center;
+    padding: 15px 0px;
 }
 
 .about-info .info-description {
@@ -215,15 +211,17 @@ main {
 
 /* -- Resume Section -- */
 
-.resume-column-title {
+.resume-column-title{
     color: #474747;
-    font-size: 30px font-weight: 700;
+    font-size: 30px;
+    font-weight: 700;
     margin-top: 113px;
     margin-bottom: 30px;
 }
 
 .resume-container {
     display: flex;
+    gap: 50px;
 }
 
 .resume-item-title {
@@ -251,11 +249,6 @@ main {
 .resume-container hr {
     margin: 30px 0;
 }
-
-.resume-column-1 {
-    margin-right: ;
-}
-
 .resume-column-info {
     margin-right: 70px;
 }
@@ -314,4 +307,8 @@ textarea {
 
 .contact {
     margin-top: 28px;
+}
+
+.hide{
+    display: none;
 }
